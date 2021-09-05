@@ -1,0 +1,40 @@
+*{
+    scroll-behavior: smooth;
+}
+h1 {
+    text-align: center;
+    margin: 22px 0px;
+    font-size: 58px;
+}
+
+.myinput {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: black;
+    font-size: 15px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: white;
+    width: 431px;
+}
+
+.container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 9px auto;
+    display: block;
+    width: 111px;
+    padding: 4px;
+    font-size: 18px;
+    background-color: black;
+    color: blue;
+    border: 3px solid red;
+    border-radius: 17px;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+doctype html 
+html 
+    head 
+        title Dev Dance Acadamy
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/logo1.jpg", alt="Error_404")
+                    | DDA
+                li #[a(href='/') Home] 
+                li #[a(href='/') About] 
+                li #[a(href='/') Services] 
+                li #[a(href='/') Class info]
+                li #[a(href='/') Contact Us] 
+
+        section#introsection 
+            div Welcome dev's dance acadamy
+            div.small Eat Sleep Dance Repeat
+        
+        section#mission 
+            h2 Our Mission
+            div.card
+                h3 Dance perfection
+                div.cardbox
+                    div.card-img
+                        img(src="/static/card1.jpg", alt="Reload")
+                    div.card-contant
+                        p This is a best Dance acadamy for children.
+            div.card
+                h3 Dance the way you like
+                div.cardbox
+                    div.card-img
+                        img(src="/static/card2.jpg", alt="Reload")
+                    div.card-contant
+                        p This is a best Dance acadamy for children.
+                    
+            div.card
+                h3 Expert teaching
+                div.cardbox
+                    div.card-img
+                        img(src="/static/card3.jpg", alt="Reload")
+                    div.card-contant
+                        p This is a best Dance acadamy for children.
+
+        section#sponcersection 
+            h2 Our Sponsor 
+            div#sponsor
+                img(src="/static/apple.jpg", alt="" , Class='spimage')
+                img(src="/static/Skype_logo.jpg", alt="", Class='spimage')
+                img(src="/static/hp.jpg", alt="" , Class='spimage')
+
+        footer#footer 
+            | Copyright &copy  2019 DevAcadamy.com , All Rights Reserved!
+
+        script 
+            include ../static/index.js 

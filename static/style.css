@@ -1,0 +1,129 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+}
+
+#logo img {
+    height: 40px;
+    filter: invert(1);
+}
+
+#navbar {
+    background-color: black;
+    
+    
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: white;
+    font-size: 2rem;
+}
+
+#introsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    background: url('/static/bg1.jpg') no-repeat center center/cover;
+    color: white;
+    height: 425px;
+    background-color: blue;
+    padding-bottom: 40px;
+}
+
+#introsection div.small {
+    font-size: 40px;
+}
+
+#mission {
+    height: 325px;
+    width: 92%;
+    margin: auto;
+}
+
+.cardbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 19px;
+}
+
+.card-img img {
+    height: 110px;
+    margin: 26px auto;
+    padding: 0px 14px;
+}
+
+#mission h2 {
+    text-align: center;
+    padding-top: 12px;
+
+}
+
+.card h3 {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 30%;
+    height: 233px;
+    margin: 23px 19px;
+}
+
+#sponcersection {
+    color: white;
+    padding: 10px 10px;
+    margin: 100px;
+    text-align: center;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(0,0,0);
+}
+
+.spimage{
+    height: 168px;
+    max-width: 227px;
+    margin: auto;
+    padding: 0px 9px;
+    padding-top: 55px;
+    filter:invert(1);
+}
+
+#footer {
+    display: flex;
+    height: 60px;
+    background-color:blue;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
